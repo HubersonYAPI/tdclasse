@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>jQuery UI Accordion - Default functionality</title>
+
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!--<script src="https://code.jquery.com/jquery-1.12.4.js"></script>-->
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> 
+ 
+  
+  <script>
+  $( function() {
+    $( "#accordion" ).accordion();
+  } );
+  </script>
+
+  <style>
+      #cover1, #panel1{
+          padding : 5px;
+          text-align : center;
+          background-color : rgb(145, 129, 238);
+          border: solid 1px #FFF;
+          width: 300px;
+      }
+
+      #cover2, #panel2{
+          padding : 5px;
+          text-align : center;
+          background-color : #ee8585;
+          border: solid 1px #FFF;
+          width: 300px;
+      }
+
+      #cover3, #panel3{
+          padding : 5px;
+          text-align : center;
+          background-color : aquamarine;
+          border: solid 1px #FFF;
+          width: 300px;
+      }
+      #accordion{
+          /*margin: auto;*/
+          padding-left: 500px;
+          width: 25px;
+      }
+  </style>
+
+</head>
+<body>
+ 
+<div id="accordion">
+
+    <div id="cover1">
+        Clique ici pour m'ouvrir 1
+    </div>
+    <div id="panel1">
+      <p>
+      Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+      ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+      amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+      odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+      </p>
+    </div>
+
+
+    <div id="cover2">
+        Clique ici pour m'ouvrir 2
+    </div>
+    <div id="panel2">
+      <p>
+      Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+      purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+      velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+      suscipit faucibus urna.
+      </p>
+    </div>
+
+    <div id="cover3">
+        Clique ici pour m'ouvrir 3
+    </div>
+    <div id="panel3">
+      <p>
+      Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+      Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+      ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+      lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+      </p>
+      
+    </div>
+  
+</div>
+ 
+ 
+</body>
+</html>
